@@ -24,7 +24,7 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       // eslint-disable-next-line no-const-assign, react-hooks/exhaustive-deps
-      window.scrollY > 50 ? (setIsActive = true) : (setIsActive = false);
+      setIsActive(window.scrollY > 50);
     });
   });
 
