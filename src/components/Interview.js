@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //Import data
-import { interviewData, InterviewData } from "../data";
+import { interviewData } from "../data";
 
 //import modal video
 import ModalVideo from "react-modal-video";

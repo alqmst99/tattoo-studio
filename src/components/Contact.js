@@ -56,7 +56,7 @@ const Contact = () => {
                       </div>
                     </div>
                       {/* link */}
-                      <a href='#' className="font-medium border-b border-dark">
+                      <a href='/#' className="font-medium border-b border-dark">
                         {link}
                       </a>
                   </div>
